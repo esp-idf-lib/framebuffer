@@ -1,7 +1,7 @@
 ---
 name: framebuffer
 description: RGB framebuffer component
-version: 0.0.2
+version: 0.0.3
 groups:
   - common
 code_owners: UncleRus
