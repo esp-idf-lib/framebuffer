@@ -48,7 +48,8 @@ extern "C" {
 
 #define FB_SIZE(fb) ((fb)->width * (fb)->height * sizeof(rgb_t))
 
-typedef enum {
+typedef enum
+{
     FB_SHIFT_LEFT  = 0,
     FB_SHIFT_RIGHT,
     FB_SHIFT_UP,

@@ -67,7 +67,8 @@ esp_err_t fb_animation_init(fb_animation_t *animation, framebuffer_t *fb)
 
     animation->fb = fb;
     animation->timer = NULL;
-    esp_timer_create_args_t timer_args = {
+    esp_timer_create_args_t timer_args =
+    {
         .arg = animation,
         .callback = display_frame,
         .dispatch_method = ESP_TIMER_TASK,

@@ -135,7 +135,8 @@ esp_err_t fb_set_pixelf_rgb(framebuffer_t *fb, float x, float y, rgb_t color)
     uint8_t iy = 255 - yy;
 
     // calculate the intensities for each affected pixel
-    uint8_t weights[4] = {
+    uint8_t weights[4] =
+    {
         WU_WEIGHT(ix, iy),
         WU_WEIGHT(xx, iy),
         WU_WEIGHT(ix, yy),
