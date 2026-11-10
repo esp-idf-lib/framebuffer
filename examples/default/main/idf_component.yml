@@ -1,0 +1,9 @@
+---
+version: 1.0.0
+description: default
+dependencies:
+  esp-idf-lib/framebuffer:
+    version: "*"
+    override_path: "../../../"
+  esp-idf-lib/color:
+    version: "*"
